@@ -3,20 +3,6 @@ import './App.css';
 import * as React from 'react';
 import { useState } from 'react';
 
-/*function MyButton() {
-  const [count, setCount] = useState(0);  //criando variaveis para manipular e contar o numero de clicks
-  function handleClick() {
-    //alert('You clicked me!');
-    setCount(count + 1);
-  }
-
-  return (
-    <button onClick={handleClick}>
-      Clicked {count} times
-    </button>
-      
-  );
-}*/
 function MyCalculator() {
   const [count1, setCount1] = useState(0);  //criando variaveis para manipular e contar o numero de clicks
   const [count2, setCount2] = useState(0);
